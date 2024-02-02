@@ -1,22 +1,19 @@
 # UID (User Identifier)
-    
-    UID to provide capability to uniquely identify a wide variety of items. 
+UID to provide capability to uniquely identify a wide variety of items. 
 
-    They guarantee uniqueness across multiple countries, sites, vendors and equipment. Different classes of objects, instance of objects and information entities can be distinguished from one another across the DICOM universe of discourse irrespective of any semantic context.
+They guarantee uniqueness across multiple countries, sites, vendors and equipment. Different classes of objects, instance of objects and information entities can be distinguished from one another across the DICOM universe of discourse irrespective of any semantic context.
     
-    UID identification scheme is based on the OSI Object Identification (ISO 8824 standard)
+UID identification scheme is based on the OSI Object Identification (ISO 8824 standard)
     
-    All Unique Identifiers, used within the context of the DICOM Standard, are registered values as defined by ISO 9834-1 to ensure global uniqueness.
+All Unique Identifiers, used within the context of the DICOM Standard, are registered values as defined by ISO 9834-1 to ensure global uniqueness.
     
-    Each UID is composed of two parts, an <org root> and a <suffix> in numeric term
+Each UID is composed of two parts, an <org root> and a <suffix> in numeric term
     
-    ```latex
     UID = <org root>.<suffix>
-    ```
     
-    **<org root>** identifies an organizations (i.e manucfacturer, research organization, NEMA, etc)
+**<org root>** identifies an organizations (i.e manucfacturer, research organization, NEMA, etc)
     
-    **<suffix>** shall be unique within the scope of the <org root>.
+**<suffix>** shall be unique within the scope of the <org root>.
 
 ## UID encoding rules
 
